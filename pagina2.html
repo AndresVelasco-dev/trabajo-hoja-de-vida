@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Contacto</h1>
+        <p>Ponte en contacto conmigo</p>
         <nav>
             <a href="index.html">Inicio</a> | 
             <a href="pagina1.html">Proyectos</a> | 
@@ -17,15 +18,43 @@
     </header>
 
     <main>
-        <section class="card">
+        <section class="sobre-mi">
             <h2>Información de Contacto</h2>
-            <p><strong>Ubicación:</strong> Colombia</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/AndresVelasco-dev" target="_blank">github.com/AndresVelasco-dev</a></p>
+            <p>Si deseas comunicarte conmigo por motivos académicos, profesionales o para colaborar en algún proyecto de desarrollo web o software, puedes hacerlo a través de los siguientes medios:</p>
+            
+            <ul style="list-style: none; padding: 0; line-height: 2;">
+                <li><strong>📧 Correo electrónico:</strong> <a href="mailto:andresfelipe@gmail.com">andresfelipe@gmail.com</a></li>
+                <li><strong>📱 Teléfono / WhatsApp:</strong> <a href="tel:3106246577">310 624 6577</a></li>
+                <li><strong>💻 GitHub:</strong> <a href="https://github.com/AndresVelasco-dev" target="_blank">AndresVelasco-dev</a></li>
+                <li><strong>📍 Ubicación:</strong> Santander de Quilichao, Cauca - Colombia</li>
+            </ul>
+        </section>
+
+        <!-- Formulario de contacto visual (opcional pero le da mucha vida a la página) -->
+        <section class="card" style="margin-top: 20px;">
+            <h2>Envíame un mensaje</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="nombre">Tu Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" style="width: 100%; padding: 8px; margin-top: 5px;" placeholder="Escribe tu nombre">
+                </p>
+                <p>
+                    <label for="correo">Tu Correo:</label><br>
+                    <input type="email" id="correo" name="correo" style="width: 100%; padding: 8px; margin-top: 5px;" placeholder="tucorreo@ejemplo.com">
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" style="width: 100%; padding: 8px; margin-top: 5px;" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </p>
+                <p>
+                    <button type="submit" style="padding: 10px 20px; background-color: #2c3e50; color: white; border: none; border-radius: 4px; cursor: pointer;">Enviar Mensaje</button>
+                </p>
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 - Andres Velasco</p>
+        <p>© 2026 - Andres Velasco. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
